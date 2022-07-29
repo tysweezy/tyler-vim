@@ -66,7 +66,7 @@ nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
 
 let mapleader = " "
-" nnoremap <leader>ff <cmd>lua require('telescope.builtin').find_files()<cr>
+nnoremap <leader>fd <cmd>lua require('telescope.builtin').find_files()<cr>
 nnoremap <leader>ff <cmd>lua require('telescope.builtin').git_files()<cr>
 nnoremap <leader>fg <cmd>lua require('telescope.builtin').live_grep()<cr>
 nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
